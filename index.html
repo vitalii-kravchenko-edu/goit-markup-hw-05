@@ -437,7 +437,7 @@
               />
             </label>
             <button type="submit" class="footer-btn">
-              <span>Subscribe</span>
+              Subscribe
               <svg class="footer-subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-subscribe"></use>
               </svg>
@@ -498,33 +498,33 @@
               </svg>
             </div>
           </div>
-          <div class="modal-field">
-            <label for="user-text" class="modal-label">Comment</label>
-            <div class="modal-input-wrap">
-              <textarea
-                class="modal-comment"
-                name="user-text"
-                id="user-text"
-                placeholder="Text input"
-              ></textarea>
-            </div>
+          <div class="modal-field-comment">
+            <label for="user-comment" class="modal-label">Comment</label>
+            <textarea
+              class="modal-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
           </div>
-          <input
-            type="checkbox"
-            name="policy"
-            id="policy"
-            class="modal-check visually-hidden"
-            value="true"
-          />
-          <label for="policy" class="modal-check-text">
-            <span class="modal-check-decor">
-              <svg class="modal-check-icon" width="8" height="8">
-                <use href="./images/icons.svg#icon-modal-check-choco"></use>
-              </svg>
-            </span>
-            I accept the terms and conditions of the
-            <a href="" class="modal-check-link">Privacy Policy</a></label
-          >
+          <div class="modal-field-policy">
+            <input
+              type="checkbox"
+              name="policy"
+              id="policy"
+              class="modal-check visually-hidden"
+              value="true"
+            />
+            <label for="policy" class="modal-check-text">
+              <span class="modal-check-decor">
+                <svg class="modal-check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-modal-check-choco"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
+              <a href="" class="modal-check-link">Privacy Policy</a></label
+            >
+          </div>
           <button type="submit" class="modal-btn">Send</button>
         </form>
       </div>
