@@ -784,7 +784,6 @@ img {
 
 .modal-field-privacy {
   margin-bottom: 24px;
-  display: inline-flex;
 }
 
 .modal-check-text {
@@ -792,7 +791,6 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icons-color);
-  display: inline-flex;
   align-items: center;
 }
 
