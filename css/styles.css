@@ -792,7 +792,7 @@ img {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--icons-color);
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 
@@ -807,7 +807,7 @@ img {
   border: 1px solid var(--backdrop-color);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
