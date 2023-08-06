@@ -489,7 +489,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 16px;
   font-family: var(--primary-font);
   font-size: 16px;
   font-weight: 500;
@@ -512,12 +511,9 @@ img {
   background-color: var(--pressed-color);
 }
 
-.footer-btn span {
-  display: inline-block;
-}
-
 .footer-subscribe-icon {
   fill: var(--primary-white-color);
+  margin-left: 16px;
 }
 
 .portfolio-section {
@@ -810,16 +806,19 @@ img {
   border: 1px solid var(--backdrop-color);
   border-radius: 2px;
   margin-right: 8px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .modal-check-text .modal-check-decor {
-  background-color: var(--brand-color);
+  background-color: var(--pressed-color);
   border: none;
-  fill: var(--primary-white-color);
+  fill: var(--primary-light-color);
 }
 
 .modal-btn {
